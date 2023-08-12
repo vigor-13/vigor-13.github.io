@@ -18,7 +18,9 @@
     "prewatch": "npx rimraf assets/js/dist",
     "watch": "npx rollup -c --bundleConfigAsCjs -w",
     "test": "npx stylelint _sass/**/*.scss",
-    "fixlint": "npm run test -- --fix"
+    "fixlint": "npm run test -- --fix",
+    "start-local": "bundle exec jekyll s",
+    "create-post": "bundle exec jekyll compose"
   },
   "devDependencies": {
     "@babel/core": "^7.21.3",
